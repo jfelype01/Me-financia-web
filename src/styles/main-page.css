@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+}
+
+#main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #FFF7F5;
+    width: 100vw;
+    height: 100vw;
+}
+
+.início {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 375px;
+    height: 303px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 40px;
+
+    background: #2A3950;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.início h1,
+.início p,
+.search {
+    margin-left: 20px;
+}
+
+.início h1 {
+    font-family: 'Sora', sans-serif;
+    color: #FFF7F5;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 110%;
+}
+
+.início p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFF7F5
+}
+
+.início .search #busca {
+    width: 237px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.score {
+    width: 135px;
+    height: 135px;
+    left: 120px;
+    top: 351px;
+
+
+    border: 12.3364px solid #974063;
+    box-sizing: border-box;
+    border-radius: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-page .score p {
+    width: 85px;
+    height: 26px;
+    left: 145px;
+    top: 406px;
+
+    margin-bottom: 30px;
+
+    color: #974063;
+    font-family: 'Sora', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    
+
+}
+
+#banks {
+    width: 343px;
+    max-width: 375px;
+    height: 80px;
+    left: 16px;
+    top: 21px;
+    
+    margin-top: 40px;
+}
+
+#banks .banco {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    grid-template-columns: 1fr 4fr;
+    
+    width: 345px;
+    height: 100px;
+
+    background-color: #FEFEFE;
+    border-radius: 16px;
+}
+
+#banks .nubank {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: #FEFEFE;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+#banks .banco p {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+}
+
+#banks .banco img {
+    width: 40px;
+    height: 40px;
+}
+#banks .nubank p {
+    margin-left: 20px;
+}
