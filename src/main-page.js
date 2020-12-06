@@ -20,12 +20,10 @@ function MainPage() {
 
             <div id="banks">
                 <div className="banco">
-                    <img src="/src/images/brasil.svg" alt="Banco do Brasil"/>
                     <p>Banco do Brasil</p>
                     <p>Você tem XX,XXR$ em títulos de capitalização</p>
                 </div>
                 <div className="nubank">
-                    <img src="/src/images/nubank.svg" alt="NuBank"/>
                     <p>NuBank</p>
                     <p>Você tem XX,XXR$ disponível em crédito para empréstimo</p>
                 </div>

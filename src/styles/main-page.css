@@ -96,9 +96,8 @@ body {
 }
 
 #banks .banco {
-    display: grid;
-    grid-template-rows: 3fr 1fr;
-    grid-template-columns: 1fr 4fr;
+    display: flex;
+    flex-direction: column;
     
     width: 345px;
     height: 100px;
@@ -118,17 +117,9 @@ body {
 }
 
 #banks .banco p {
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 110%;
+    margin-left: 20px;
 }
 
-#banks .banco img {
-    width: 40px;
-    height: 40px;
-}
 #banks .nubank p {
     margin-left: 20px;
 }
